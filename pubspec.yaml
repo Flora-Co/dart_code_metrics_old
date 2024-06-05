@@ -6,6 +6,7 @@ repository: https://github.com/dart-code-checker/dart-code-metrics
 issue_tracker: https://github.com/dart-code-checker/dart-code-metrics/issues
 documentation: https://dcm.dev/docs/individuals/getting-started
 
+flutter: ">=3.22.0"
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
