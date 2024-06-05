@@ -7,7 +7,7 @@ issue_tracker: https://github.com/dart-code-checker/dart-code-metrics/issues
 documentation: https://dcm.dev/docs/individuals/getting-started
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=2.18.0 <4.0.0"
 
 platforms:
   linux:
@@ -36,11 +36,11 @@ dependencies:
   yaml: #^3.1.0
 
 dev_dependencies:
-  coverage: ^1.0.2
-  intl: ">=0.17.0 <0.19.0"
-  lints: ^2.0.0
-  mocktail: ^0.3.0
-  test: ^1.21.0
+  coverage: #^1.0.2
+  intl: #">=0.17.0 <0.19.0"
+  lints: #^2.0.0
+  mocktail: #^0.3.0
+  test: #^1.21.0
 
   # internal package, used only in tests data
   test_lints:
